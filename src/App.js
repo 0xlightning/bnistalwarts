@@ -4,7 +4,7 @@ import { Header } from './components/index';
 
 function App() {
   return (
-    <div>
+    <div className='flex gap-[20px]'>
       <Header />
       <Outlet />
     </div>
